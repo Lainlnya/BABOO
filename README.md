@@ -77,7 +77,7 @@ BOJ_1234_제목 (약어_문제번호_제목)
 <br/>
 
 
-### 2. Commit Rules
+### 2. Commit & PR Rules
 ```
 [태그] 내용
 
