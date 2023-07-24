@@ -59,13 +59,43 @@ BABOO들의 자바 알고리즘 스터디
 
 ## 저장소 규칙
 추후 업데이트 예정
-### File Name
+### 1. File Name
+```
+BOJ_1234_제목 (약어_문제번호_제목)
+```
 
-### Commit Rules
+| 약어 | 문제 사이트                                      |
+| ---- | ------------------------------------------------ |
+| BOJ  | [Baekjoon Online Judge](https://www.acmicpc.net) |
+| JO   | [Jung Ol](https://www.jungol.co.kr/) |
+| SWEA | [SW Expert Academy](https://swexpertacademy.com) |
+
+<br/>
 
 
-### Rule
-아마 예림이가 디자인 보고 화나서 바꿀 듯...(상관없으면 그대로)
+### 2. Commit Rules
+```
+[태그] 내용
+
+ex) 문제풀이 코드를 올릴 때
+[Add] 03_재귀_chai (Add: 문제분류 + 브랜치) 
+```
+
+
+| 태그 |	설명 |
+|----------|--------------|
+| Add |	새로운 문제풀이 추가 |
+| Style	| 코드 포맷 변경, 세미 콜론 누락, 코드 수정이 없는 경우 |
+| Comment | 필요한 주석 추가 및 변경 |
+| Docs | 문서 수정(README.md 포함) |
+| Rename | 파일 혹은 폴더명을 수정하거나 옮기는 작업만인 경우 |
+| Remove | 파일을 삭제하는 작업만 수행한 경우 |
+<br/>
+
+<br/>
+<br/>
+
+### 3. Rule
 
 <ol>
 <li> 월요일은 온라인 8시~8시반 사이 1시간 반 각자 알고리즘 풀기 </li>
