@@ -1,4 +1,6 @@
-# BABOO
+# BABOO  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLainlnya%2FBABOO&count_bg=%2379C83D&title_bg=%23555555&icon=iconify.svg&icon_color=%23FFFFFF&title=%EB%B0%A9%EB%AC%B8%EC%9E%90%EC%88%98&edge_flat=false)](https://hits.seeyoufarm.com)
+
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:d6ace6,100:a82da8&height=200&section=header&text=BABOO&fontSize=60&fontColor=ffff)
 BABOO들의 자바 알고리즘 스터디
 
 ## 🧑‍💻구성원
@@ -10,7 +12,7 @@ BABOO들의 자바 알고리즘 스터디
             <br />
             <sub>
                 <b>조용환</b>
-            </sub>
+            </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=s4253541" widt="100px">
         </a>
         <br />
     </td>    
@@ -20,7 +22,7 @@ BABOO들의 자바 알고리즘 스터디
             <br />
             <sub>
                 <b>문성현</b>
-            </sub>
+            </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=seonghyeon_moon" widt="100px">
         </a>
         <br />
     </td>
@@ -30,7 +32,7 @@ BABOO들의 자바 알고리즘 스터디
             <br />
             <sub>
                 <b>김예림</b>
-            </sub>
+            </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=kimyelim100" widt="100px">
         </a>
         <br />
     </td>
@@ -40,7 +42,7 @@ BABOO들의 자바 알고리즘 스터디
             <br />
             <sub>
                 <b>유승호</b>
-            </sub>
+            </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=babyho99" widt="100px">
         </a>
         <br />
     </td>    
@@ -50,7 +52,7 @@ BABOO들의 자바 알고리즘 스터디
             <br />
             <sub>
                 <b>노세희</b>
-            </sub>
+            </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=noseahe" widt="100px">
         </a>
         <br />
     </td>
@@ -58,7 +60,9 @@ BABOO들의 자바 알고리즘 스터디
 </table>
 
 ## 저장소 규칙
-추후 업데이트 예정
+
+
+
 ### 1. File Name
 ```
 BOJ_1234_제목 (약어_문제번호_제목)
@@ -73,12 +77,14 @@ BOJ_1234_제목 (약어_문제번호_제목)
 <br/>
 
 
-### 2. Commit Rules
+### 2. Commit & PR Rules
 ```
 [태그] 내용
 
 ex) 문제풀이 코드를 올릴 때
-[Add] 03_재귀_chai (Add: 문제분류 + 브랜치) 
+[Add] BOJ_문제번호_이름_시간(min)
+
+git commit -m "[Add] SWEA_1218_유_180"
 ```
 
 
@@ -91,8 +97,7 @@ ex) 문제풀이 코드를 올릴 때
 | Remove | 파일을 삭제하는 작업만 수행한 경우 |
 <br/>
 
-<br/>
-<br/>
+
 
 ### 3. Rule
 
@@ -104,3 +109,5 @@ ex) 문제풀이 코드를 올릴 때
 <li> 주당 10문제 ( 1인 2문제) 풀이 </li>
 
 </ol>
+
+
