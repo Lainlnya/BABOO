@@ -1,6 +1,6 @@
 # BABOO  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLainlnya%2FBABOO&count_bg=%2379C83D&title_bg=%23555555&icon=iconify.svg&icon_color=%23FFFFFF&title=%EB%B0%A9%EB%AC%B8%EC%9E%90%EC%88%98&edge_flat=false)](https://hits.seeyoufarm.com)
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:d6ace6,100:a82da8&height=200&section=header&text=BABOO&fontSize=60&fontColor=d6ace6)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:d6ace6,100:a82da8&height=200&section=header&text=BABOO&fontSize=60&fontcolor=random)
 BABOO들의 자바 알고리즘 스터디
 
 ## 🧑‍💻구성원
@@ -12,7 +12,7 @@ BABOO들의 자바 알고리즘 스터디
             <br />
             <sub>
                 <b>조용환</b>
-            </sub>
+            </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=s4253541" widt="100px">
         </a>
         <br />
     </td>    
@@ -22,7 +22,7 @@ BABOO들의 자바 알고리즘 스터디
             <br />
             <sub>
                 <b>문성현</b>
-            </sub>
+            </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=seonghyeon_moon" widt="100px">
         </a>
         <br />
     </td>
@@ -32,7 +32,7 @@ BABOO들의 자바 알고리즘 스터디
             <br />
             <sub>
                 <b>김예림</b>
-            </sub>
+            </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=kimyelim100" widt="100px">
         </a>
         <br />
     </td>
@@ -42,7 +42,7 @@ BABOO들의 자바 알고리즘 스터디
             <br />
             <sub>
                 <b>유승호</b>
-            </sub>
+            </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=babyho99" widt="100px">
         </a>
         <br />
     </td>    
@@ -52,7 +52,7 @@ BABOO들의 자바 알고리즘 스터디
             <br />
             <sub>
                 <b>노세희</b>
-            </sub>
+            </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=noseahe" widt="100px">
         </a>
         <br />
     </td>
@@ -61,8 +61,7 @@ BABOO들의 자바 알고리즘 스터디
 
 ## 저장소 규칙
 추후 업데이트 예정
-[![Solved.ac프로필]
-<img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=babyho99" widt="100px">
+
 
 ### 1. File Name
 ```
