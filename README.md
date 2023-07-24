@@ -1,4 +1,6 @@
-# BABOO
+# BABOO  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLainlnya%2FBABOO&count_bg=%2379C83D&title_bg=%23555555&icon=iconify.svg&icon_color=%23FFFFFF&title=%EB%B0%A9%EB%AC%B8%EC%9E%90%EC%88%98&edge_flat=false)](https://hits.seeyoufarm.com)
+
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:d6ace6,100:a82da8&height=200&section=header&text=BABOO&fontSize=60&fontColor=d6ace6)
 BABOO들의 자바 알고리즘 스터디
 
 ## 🧑‍💻구성원
@@ -59,6 +61,9 @@ BABOO들의 자바 알고리즘 스터디
 
 ## 저장소 규칙
 추후 업데이트 예정
+[![Solved.ac프로필]
+<img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=babyho99" widt="100px">
+
 ### 1. File Name
 ```
 BOJ_1234_제목 (약어_문제번호_제목)
@@ -78,7 +83,8 @@ BOJ_1234_제목 (약어_문제번호_제목)
 [태그] 내용
 
 ex) 문제풀이 코드를 올릴 때
-[Add] 03_재귀_chai (Add: 문제분류 + 브랜치) 
+[Add] BOJ_문제번호_이름_시간(min) (Add: 문제분류 + 브랜치) 
+git commit -m "[Add] SWEA_1218_유_180"
 ```
 
 
@@ -104,3 +110,5 @@ ex) 문제풀이 코드를 올릴 때
 <li> 주당 10문제 ( 1인 2문제) 풀이 </li>
 
 </ol>
+
+
