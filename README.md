@@ -42,7 +42,8 @@ BABOO들의 자바 알고리즘 스터디
             <br />
             <sub>
                 <b>유승호</b>
-            </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=babyho99" widt="100px">
+            </sub><br/>[![Solved.ac
+프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=babyho99)](https://solved.ac/babyho99)
         </a>
         <br />
     </td>    
