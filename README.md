@@ -60,6 +60,9 @@ BABOO들의 자바 알고리즘 스터디
   </tr>
 </table>
 
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle})
+
 ## 저장소 규칙
 
 
