@@ -4,7 +4,7 @@ public class NewCalculation {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
-		// test		
+			
 		for (int i = 0; i < T; i++) { // Test case 반복
 
 			int p = sc.nextInt();
