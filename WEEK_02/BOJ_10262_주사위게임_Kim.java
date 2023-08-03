@@ -13,6 +13,7 @@ public class BOJ_10262_주사위게임_Kim {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         List<Integer> ggung = new ArrayList<>(); // 꿍의 주사위 합을 위한 리스트 선언
         List<Integer> seok = new ArrayList<>(); // 석의 주사위 합을 위한 리스트 선언
+
         int K = 2; // 2줄로 입력 고정
         int win = 0, same = 0, result = 0, lose = 0;
         while (K-- > 0) {
