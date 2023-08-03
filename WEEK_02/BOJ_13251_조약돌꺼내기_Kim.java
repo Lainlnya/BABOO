@@ -31,7 +31,6 @@ public class BOJ_13251_조약돌꺼내기_Kim {
             if (arr[i] >= K) { // 5 >= 1
                 int temp = total; // total = 12
                 int temp2 = K; // 1
-
                 double tempAnswer = 1;
                 while (temp2-- > 0) {
                     tempAnswer *= (arr[i]-- / (double) temp--);
