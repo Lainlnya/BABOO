@@ -57,6 +57,7 @@ public class BOJ_24060_MergeSort_kim {
         }
 
         i = left; t = 0;
+        
         while (i <= right) {
             num++;
             if (num == findNum) {

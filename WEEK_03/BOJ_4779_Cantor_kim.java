@@ -9,6 +9,7 @@ public class BOJ_4779_Cantor_kim {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNextInt()) {
             sb = new StringBuilder();
+            // 출력해야 할 총 숫자를 구한 다음 "-"를 찍기
             int Total = (int)Math.pow(3, sc.nextInt());
             for (int i = 0; i < Total; i++) {
                 sb.append("-");
@@ -23,12 +24,16 @@ public class BOJ_4779_Cantor_kim {
         if (num == 1) {
             return;
         }
+        
+        // 3등분 해서 가운데는 빈 문자열(' ')으로 만들어주기
         int left = num / 3;
         for (int i = start + left; i < start + left * 2; i++) {
             sb.setCharAt(i, ' ');
         }
 
-        recursive(start, left); // 왼쪽 (0 ~ 1)
-        recursive(start + 2 * left, left); // 오른쪽 (2 ~ 3)
+        // 남은 왼쪽 재귀
+        recursive(start, left);
+        // 남은 오른쪽 재귀
+        recursive(start + 2 * left, left);
     }
 }
