@@ -1,9 +1,9 @@
-package WEEK_03;
+package sdf;
 
 import java.io.*;
 import java.util.Arrays;
 
-public class BOJ_4779_Cantor_cho {
+public class asdfasdfasdf {
     public static void main(String[] args) throws IOException {
 
         StringBuilder stb = new StringBuilder();
@@ -21,7 +21,6 @@ public class BOJ_4779_Cantor_cho {
             	arr = arr + blank + arr;
             	blank = blank + blank +blank;
             }
-            // 硫붾え由� 珥덇낵, �떆媛� 珥덇낵瑜� 留됯린 �쐞�빐, 誘몃━ 留뚮뱾�뼱�몦 2媛쒖쓽 String�쓣 �씠�슜�빐 �쟾遺� 怨꾩궛;
             stb.setLength(0);
             stb.append(arr);
             bw.write(stb + "\n");
