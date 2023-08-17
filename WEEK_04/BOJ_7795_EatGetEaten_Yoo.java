@@ -1,4 +1,4 @@
-package BOJ_7795_¸ÔÀ»°ÍÀÎ°¡;
+
 
 import java.io.*;
 import java.util.*;
@@ -17,19 +17,20 @@ public class Main {
 			
 			st = new StringTokenizer(br.readLine());
 			
-			// A »çÀÌÁî ÀÔ·Â
+			//ì‚¬ì´ì¦ˆ ì…ë ¥ A
 			for (int j = 0; j < A; j++) 
 				Asize[j] = Integer.parseInt(st.nextToken());
 			st = new StringTokenizer(br.readLine());
-			// B »çÀÌÁî ÀÔ·Â
+
+			//ì‚¬ì´ì¦ˆ ì…ë ¥ B
 			for (int k = 0; k < B; k++) 
 				Bsize[k] = Integer.parseInt(st.nextToken());
 
-			// ¹è¿­ Á¤·Ä 
+			// ì •ë ¬!
 			Arrays.sort(Asize); 
 			Arrays.sort(Bsize);
 			
-			//ºñ±³ 
+			//ì§ì ‘ ë¹„êµ ìŠ¤ìºë„ˆëŠ” ì‹œê°„ì´ˆê³¼!!!
 			int count = 0;
 			for (int i = 0; i < Asize.length; i++) {
 				for (int j = 0; j < Bsize.length;j++) {

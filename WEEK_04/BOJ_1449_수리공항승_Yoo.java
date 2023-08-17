@@ -1,4 +1,3 @@
-package BOJ_1449_¼ö¸®°øÇ×½Â;
 
 import java.util.*;
 
@@ -6,32 +5,32 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		// ¹°»õ´Â °÷ °³¼ö
+		// ê°œìˆ˜ ì…ë ¥
 		int N = sc.nextInt();
 
-		// Å×ÀÌÇÁ ±æÀÌ ¹«ÇÑ°³ÀÖÀ½!
+		// í…Œì´í”„ ê¸¸ì´
 		int L = sc.nextInt();
 
 		int[] arr = new int[N];
-		// ÁÂ¿ì°£°İ 0.5 ÀÏ´Ü »ı°¢
+	
 
-		// ÀÔ·Â¹ŞÀ¸½Ã¿À
+		//ë°°ì—´ì…ë ¥ë°›ê¸°
 		for (int i = 0; i < N; i++) {
 			arr[i] = sc.nextInt();
 		}
 
 		Arrays.sort(arr);
 
-		// Ã³À½ Å×ÀÌÇÁ ºÙÀÌ°í ½ÃÀÛ
+		//ì²˜ìŒ ì‹œì‘ì§€ì ì— í…Œì´í”„ ë¶™ì´ê³  ì‹œì‘
 		int cnt = 1;
-		// Ã¹ ½ÃÀÛÁ¡ °íÁ¤
+		// ì²˜ìŒ ì‹œì‘ì§€ì ì„ Aë¡œ ì§€ì •
 		int A = arr[0];
 
 		for (int i = 1; i < N; i++) {
-			// ÀÖ´Â Å×ÀÌÇÁ ±×³É ¾²±â
+			// í…Œì´í”„ ê¸¸ì´ì•ˆì— ìˆìœ¼ë©´ pass
 			if (arr[i] < A + L)
 				continue;
-			// Å×ÀÌÇÁ ÇÑ°³ Ãß°¡ÇÏ°í ½ÃÀÛÁöÁ¡ ±³Ã¼
+			// ê¸¸ì´ ë„˜ì–´ê°€ë©´ ìƒˆë¡œ ë¶™ì´ë©´ì„œ ì‹œì‘ì§€ì  êµì²´
 			else {
 				cnt++;
 				A = arr[i];
@@ -39,5 +38,5 @@ public class Main {
 		}
 
 		System.out.println(cnt);
-	}// ¸ŞÀÎ¹®
+	}
 }
