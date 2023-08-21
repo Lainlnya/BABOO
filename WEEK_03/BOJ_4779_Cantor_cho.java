@@ -3,7 +3,7 @@ package WEEK_03;
 import java.io.*;
 import java.util.Arrays;
 
-public class Main {
+public class BOJ_4779_Cantor_cho {
     public static void main(String[] args) throws IOException {
 
         StringBuilder stb = new StringBuilder();
@@ -21,7 +21,7 @@ public class Main {
             	arr = arr + blank + arr;
             	blank = blank + blank +blank;
             }
-            // 메모리 초과, 시간 초과를 막기 위해, 미리 만들어둔 2개의 String을 이용해 전부 계산;
+            // 硫붾え由� 珥덇낵, �떆媛� 珥덇낵瑜� 留됯린 �쐞�빐, 誘몃━ 留뚮뱾�뼱�몦 2媛쒖쓽 String�쓣 �씠�슜�빐 �쟾遺� 怨꾩궛;
             stb.setLength(0);
             stb.append(arr);
             bw.write(stb + "\n");
