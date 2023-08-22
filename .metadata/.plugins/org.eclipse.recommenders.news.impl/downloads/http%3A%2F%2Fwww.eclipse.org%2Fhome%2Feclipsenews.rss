@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://newsroom.eclipse.org/">
+  <channel>
+    <title>Eclipse Announcements [%1]</title>
+    <link>https://newsroom.eclipse.org/</link>
+    <description/>
+    <language>en</language>
+    
+    <item>
+  <title><a href="/news/announcements/eclipse-foundation-publishes-results-equinox-p2-security-audit" hreflang="en">Eclipse Foundation Publishes Results of Equinox p2 Security Audit</a></title>
+  <link>https://newsroom.eclipse.org/39593</link>
+  <description/>
+  <pubDate/>
+    <dc:creator>Jacob Harris</dc:creator>
+    <guid isPermaLink="true">https://newsroom.eclipse.org/39593</guid>
+    </item>
+<item>
+  <title><a href="/news/announcements/open-vsx-registry-vendor-neutral-open-source-alternative-visual-studio-0" hreflang="und">The Open VSX Registry, a Vendor-Neutral Open Source Alternative to the Visual Studio Marketplace, Gets its Own Working Group at the Eclipse Foundation</a></title>
+  <link>https://newsroom.eclipse.org/39528</link>
+  <description>&lt;p&gt;&lt;strong&gt;BRUSSELS, Belgium – June 27, 2023 – &lt;/strong&gt;The Eclipse Foundation, one of the world’s largest open source software foundations, today announced the formation of the Open VSX Working Group. The mission of the new working group will be to manage and accelerate adoption of the Open VSX Registry, a vendor-neutral, community-supported alternative to the Microsoft Visual Studio Marketplace. &lt;/p&gt;
+
+&lt;p&gt;Built on the&lt;a href="https://projects.eclipse.org/projects/ecd.openvsx"&gt; Eclipse Open VSX&lt;/a&gt; open source project, the Open VSX Registry currently hosts nearly 3,000 extensions from over 1,500 different publishers, with new publishers and extensions being added daily. Since the Open VSX Registry became available in 2021, developers have consumed more than 40M extensions, with downloads now exceeding 2M per month. To manage and facilitate this ongoing growth, management of the Open VSX Registry will now shift from the &lt;a href="https://ecdtools.eclipse.org/"&gt;Eclipse Cloud DevTools Working Group&lt;/a&gt; to a new working group, with initial members including Google, Huawei, Posit, Salesforce, Siemens, and STMicroelectronics. &lt;/p&gt;
+
+&lt;p&gt;“The Open VSX Registry has experienced significant momentum at the Eclipse Foundation, so much so that it merits having its own working group for continued evolution and growth,” said Mike Milinkovich, executive director of the Eclipse Foundation. “By creating a vendor-neutral home with a true open source model for these extensions, we can ensure that this marketplace is guided by the community, and not just a single vendor.”&lt;/p&gt;
+
+&lt;p&gt;The Open VSX Registry delivers on the industry’s need for a fully open source approach to marketplace technologies for Visual Studio (VS) Code extensions. It increases transparency and flexibility for extension users, publishers, and tool developers, particularly those leveraging cloud-based development tools and IDEs that want to avoid being locked into proprietary models and marketplaces. &lt;/p&gt;
+
+&lt;p&gt;As an open alternative to the Visual Studio Marketplace, the Open VSX Registry offers free access to extensions that can be used with any technology or tool that supports them. These include many open source solutions like Eclipse Che and Eclipse Theia, as well as Salesforce Code Builder, Google Cloud Workstations, Gitpod, SAP Business Application Studio and other applications based on Eclipse projects.&lt;/p&gt;
+
+&lt;p&gt;In addition, since the Eclipse Open VSX code itself is open source, any organization can contribute to the registry code and reuse it to create an internally hosted and managed extension registry for their in-house developers to publish and consume VS Code extensions.&lt;/p&gt;
+
+&lt;p&gt;Interested parties can learn more or start using the Open VSX Registry immediately at &lt;a href="https://open-vsx.org/"&gt;open-vsx.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To learn more about how to get involved with the Open VSX Working Group, visit the &lt;a href="https://www.eclipse.org/membership/"&gt;Eclipse Foundation membership page&lt;/a&gt; or send email to &lt;a href="mailto:membership.coordination@eclipse-foundation.org"&gt;membership.coordination@eclipse-foundation.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Quotes from Open VSX Working Group Members &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Google&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“We are excited to expand our relationship with the Eclipse Foundation and support the creation of the Open VSX Working Group,” said Thomas DeMeo, Director of Developer Tools, Google Cloud. “At Google Cloud, we want to give our customers options when it comes to working with their preferred IDE, and the Open VSX Registry furthers our ability to deliver on that goal. As both strong supporters and originators of many open source efforts, we support the customer choice and vendor neutrality that the Open VSX Registry aims to deliver.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Huawei&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“The mission of the CodeArts team at Huawei Cloud is to build the top-notch tools and services for the Huawei developer ecosystem,” said Yawei Wang, Chief Technologist of Developer Tools at Huawei Cloud. “We are committed to helping developers write and ship code faster and easier and keeping teams productive. Meanwhile, we also offer an open platform on which developers can build and publish their own extensions to suit specific business needs. The Open VSX Registry, a vendor-neutral option for IDE extensions, is essential to fulfill our mission and keep our long-standing commitment to developers.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Posit&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;“The mission of Posit is to create open source software for data science, scientific research, and technical communication,” said Tareef Kawaf, President of Posit Software, PBC. “We invest heavily in open source development, education, and the community with the goal of continuing to serve knowledge creators as a 100 year company. We are happy to support the Open VSX Registry’s mission of maintaining a vendor-neutral platform for open source licensed community and professional IDE extensions.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Salesforce&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“Salesforce is excited to join the Open VSX Working Group to support the continued growth of an open ecosystem for Visual Studio Code extensions,” said Dan Fernandez, Vice President, Developer Services at Salesforce. “We also support the Open VSX Registry with built-in access from Salesforce Code Builder, a modern, web-based development environment tailored for Salesforce development. Our official Salesforce extensions are published to open-vsx.org to allow developers to work how they want, where they want.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Siemens&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“We at Siemens are dedicated to consistently improving our automation software offerings to meet the evolving needs of automation software engineers seeking innovation and efficiency,” said Johannes Birkenstock and Jacob Hilsebein, Software Developers at Siemens. “We deeply appreciate the collaborative efforts of our partners and communities, recognising their pivotal role in fostering open and flexible toolchains. Being a part of the Eclipse Foundation's Open VSX Working Group allows us to empower automation software engineers by providing them with the tools they love to use.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;STMicroelectronics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“As the world’s leading supplier of general-purpose microcontrollers, ST continues to focus its embedded tools and software efforts on features and capabilities that help developers innovate more and achieve faster,” said Ricardo De-Sa-Earp, Executive Vice President, General-Purpose Microcontrollers, STMicroelectronics. “We recognize that partners and community contributions are key to building and enhancing the most comprehensive ecosystem around our products and see the Eclipse Open VSX project as a promising initiative to enlarge the possibilities offered to embedded developers even more.“&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;About the Eclipse Foundation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Eclipse Foundation provides our global community of individuals and organisations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation. The Foundation is home to the Eclipse IDE, Jakarta EE, and over 400 open source projects, including runtimes, tools, and frameworks for cloud and edge applications, IoT, AI, automotive, systems engineering, distributed ledger technologies, open processor designs, and many others. The Eclipse Foundation is an international non-profit association supported by over 330 members, including industry leaders who value open source as a key enabler for their business strategies. To learn more, follow us on Twitter&lt;a href="https://twitter.com/EclipseFdn"&gt; @EclipseFdn&lt;/a&gt;,&lt;a href="https://linkedin.com/company/eclipse-foundation"&gt; LinkedIn&lt;/a&gt; or visit&lt;a href="http://eclipse.org"&gt; eclipse.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Third-party trademarks mentioned are the property of their respective owners.&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Media contacts:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;Schwartz Public Relations for the Eclipse Foundation, AISBL&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Gloria Huppert / Franziska Wenzl&lt;/p&gt;
+
+&lt;p&gt;Sendlinger Straße 42A&lt;/p&gt;
+
+&lt;p&gt;80331 Munich&lt;/p&gt;
+
+&lt;p&gt;EclipseFoundation@schwartzpr.de&lt;/p&gt;
+
+&lt;p&gt;+49 (89) 211 871 – 70 / -58&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;Nichols Communications for the Eclipse Foundation, AISBL&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Jay Nichols&lt;/p&gt;
+
+&lt;p&gt;jay@nicholscomm.com&lt;/p&gt;
+
+&lt;p&gt;+1 408-772-1551&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;514 Media Ltd for the Eclipse Foundation, AISBL (France, Italy, Spain)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Benoit Simoneau&lt;/p&gt;
+
+&lt;p&gt;benoit@514-media.com&lt;/p&gt;
+
+&lt;p&gt;M: +44 (0) 7891 920 370&lt;/p&gt;
+</description>
+  <pubDate/>
+    <dc:creator>Jacob Harris</dc:creator>
+    <guid isPermaLink="true">https://newsroom.eclipse.org/39528</guid>
+    </item>
+<item>
+  <title><a href="/news/announcements/eclipse-sparkplug-specification-honored-iot-business-impact-award" hreflang="und">Eclipse Sparkplug Specification Honored with IoT Business Impact Award </a></title>
+  <link>https://newsroom.eclipse.org/39503</link>
+  <description>&lt;p&gt;&lt;strong&gt;BRUSSELS, Belgium – May 23, 2023 – &lt;/strong&gt;The Eclipse Foundation, one of the world’s largest open source software foundations, announced today that the &lt;a href="https://sparkplug.eclipse.org/"&gt;Eclipse Sparkplug specification&lt;/a&gt; has received a 2023 IoT Business Impact Award from &lt;a href="https://www.iotevolutionworld.com/Default.aspx"&gt;IoT Evolution&lt;/a&gt; magazine, the leading publication covering IoT technologies.&lt;/p&gt;
+
+&lt;p&gt;The award honors organizations for their IoT deployment case studies. Eclipse Sparkplug was recognized for their successful partnership bringing IoT functionality to NGL Energy Partners.&lt;/p&gt;
+
+&lt;p&gt;“Sparkplug is well on its way to becoming the de facto standard for making the IIoT ‘plug’n’play,’” said Frederic Desbiens, Eclipse Foundation program manager and evangelist for IoT and Edge Computing. “This award highlights the significant business benefits of implementing this specification in conjunction with MQTT.” &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;About Sparkplug &amp; MQTT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sparkplug provides an open and freely available specification for how Edge of Network (EoN) gateways or native MQTT-enabled end devices and MQTT Applications communicate bi-directionally within an MQTT Infrastructure. It is recognized that MQTT is used across a wide spectrum of application solution use cases and an almost indefinable variation of network topologies. &lt;/p&gt;
+
+&lt;p&gt;By design, the MQTT specification does not dictate a Topic Namespace or any payload encoding. However, as the IIoT and other architectures leveraging the publisher/subscriber model are adopted by device OEMs in the industrial sector, having different Topic Namespace and payload encoding can inhibit interoperability for the end customer. To that end, the Sparkplug specification addresses the following components within an MQTT infrastructure: &lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;Sparkplug defines an OT-centric Topic Namespace &lt;/li&gt;
+	&lt;li&gt;Sparkplug defines an OT-centric Payload definition optimized for industrial process variables &lt;/li&gt;
+	&lt;li&gt;Sparkplug defines MQTT Session State management required by real-time OT SCADA systems&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; “It is my pleasure to recognize Sparkplug, an innovative solution that earned the Eclipse Foundation the 2023 Business Impact Award,” said Rich Tehrani, CEO, TMC. “I look forward to seeing more successful deployments of best-in-class solutions from the Eclipse Foundation in the future.”&lt;/p&gt;
+
+&lt;p&gt;The Sparkplug standard has recently been submitted for acceptance as an&lt;a href="https://www.globenewswire.com/en/news-release/2022/12/08/2570068/0/en/The-Eclipse-Foundation-Announces-The-Release-of-Sparkplug-3-0-and-Unveils-it-is-Being-Fast-Tracked-to-Become-an-International-Standard.html"&gt; ISO/IEC JTC 1 international standard&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;About the Eclipse Foundation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Eclipse Foundation provides our global community of individuals and organisations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation. The Foundation is home to the Eclipse IDE, Jakarta EE, and over 400 open source projects, including runtimes, tools, and frameworks for cloud and edge applications, IoT, AI, automotive, systems engineering, distributed ledger technologies, open processor designs, and many others. The Eclipse Foundation is an international non-profit association supported by over 330 members, including industry leaders who value open source as a key enabler for their business strategies. To learn more, follow us on Twitter&lt;a href="https://twitter.com/EclipseFdn"&gt; @EclipseFdn&lt;/a&gt;,&lt;a href="https://linkedin.com/company/eclipse-foundation"&gt; LinkedIn&lt;/a&gt; or visit&lt;a href="http://eclipse.org"&gt; eclipse.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Third-party trademarks mentioned are the property of their respective owners.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;About Crossfire Media&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Crossfire Media, co-publishers of IoT Evolution, is an integrated marketing company with a core focus on future trends in technology. We service communities of interest with conferences, tradeshows, webinars and newsletters. Crossfire Media has a partnership with Technology Marketing Corporation (TMC) to produce events and websites related to disruptive technologies. Crossfire Media is a division of Crossfire Consulting, a full service Information Technology company based in New York. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;About TMC&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Through education, industry news, live events and social influence, global buyers rely on TMC’s content-driven marketplaces to make purchase decisions and navigate markets. As a result, leading technology vendors turn to TMC for unparalleled branding, thought leadership and lead generation opportunities. Our in-person and online events deliver unmatched visibility and sales prospects for all percipients. Through our custom lead generation programs, we provide clients with an ongoing stream of leads that turn into sales opportunities and build databases. Additionally, we bolster brand reputations with the millions of impressions from display advertising on our news sites and newsletters. Making TMC a 360 degree marketing solution, we offer comprehensive event and road show management services and custom content creation with expertly ghost-crafted blogs, press releases, articles and marketing collateral to help with SEO, branding, and overall marketing efforts. For more information about TMC and to learn how we can help you reach your marketing goals, please visit www.tmcnet.com and follow us on Facebook, LinkedIn and Twitter, @tmcnet.&lt;/p&gt;
+
+&lt;p&gt;For more information about TMC and to learn how we can help you reach your marketing goals, please visit www.tmcnet.com.&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Media contacts:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Schwartz Public Relations for the Eclipse Foundation, AISBL&lt;/p&gt;
+
+&lt;p&gt;Stephanie Brüls / Susanne Pawlik&lt;/p&gt;
+
+&lt;p&gt;Sendlinger Straße 42A&lt;/p&gt;
+
+&lt;p&gt;80331 Munich&lt;/p&gt;
+
+&lt;p&gt;EclipseFoundation@schwartzpr.de&lt;/p&gt;
+
+&lt;p&gt;+49 (89) 211 871 – 64 / -35&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Nichols Communications for the Eclipse Foundation, AISBL&lt;/p&gt;
+
+&lt;p&gt;Jay Nichols&lt;/p&gt;
+
+&lt;p&gt;jay@nicholscomm.com&lt;/p&gt;
+
+&lt;p&gt;+1 408-772-1551&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;514 Media Ltd for the Eclipse Foundation, AISBL (France, Italy, Spain)&lt;/p&gt;
+
+&lt;p&gt;Benoit Simoneau&lt;/p&gt;
+
+&lt;p&gt;benoit@514-media.com&lt;/p&gt;
+
+&lt;p&gt;M: +44 (0) 7891 920 370&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TMC Contact:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Michelle Connolly&lt;/p&gt;
+
+&lt;p&gt;Senior Marketing Manager&lt;/p&gt;
+
+&lt;p&gt;203-852-6800, ext. 170&lt;/p&gt;
+
+&lt;p&gt;mconnolly@tmcnet.com &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+ &lt;/p&gt;
+</description>
+  <pubDate/>
+    <dc:creator>Jacob Harris</dc:creator>
+    <guid isPermaLink="true">https://newsroom.eclipse.org/39503</guid>
+    </item>
+<item>
+  <title><a href="/news/announcements/eclipse-foundation-publishes-its-study-about-open-services-cloud" hreflang="und">The Eclipse Foundation publishes its study about Open Services Cloud</a></title>
+  <link>https://newsroom.eclipse.org/39468</link>
+  <description>&lt;p&gt;&lt;strong&gt;BRUSSELS, Belgium – April 24th, 2023 – &lt;/strong&gt;The Eclipse Foundation, one of the world’s largest open source software foundations, today published its study about Cloud Interoperability to foster the European Digital Market. The report provides an analysis of the current market of the European cloud services ecosystem and perspectives:&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;To unlock the cloud industry,&lt;/li&gt;
+	&lt;li&gt;To ease current digital market limitations, &lt;/li&gt;
+	&lt;li&gt;To simplify the complexity behind managed cloud services usage, &lt;/li&gt;
+	&lt;li&gt;And to open new opportunities for all: users, developers, and service providers. &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;As part of this publication, the Eclipse Foundation will be hosting a launch event on April 25th at 1:30 PM CEST in Brussels, open to all parties interested in contributing to an open cloud ecosystem. Registration and more information on this event can be found here: &lt;a href="https://events.eclipse.org/2023/unlockthecloud/"&gt;https://events.eclipse.org/2023/unlockthecloud/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;“EU participants are grossly underrepresented in today's cloud ecosystem. This new open source industry collaboration will level the playing field and enable Europe to not only fully embrace the cloud, but build its own innovative industry,” said Mike Milinkovich, executive director, the Eclipse Foundation. “As one of the critical ingredients to growth for multiple industries underpinning the EU’s economy, growing the region’s leadership in the cloud ecosystem will be the foundation for the future economic prosperity of Europe.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Building cloud interoperability with the Open Services Cloud&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Having reached nearly €190B in 2022, the European cloud services market is growing rapidly. It drives many of the 14 strategic industrial ecosystems defined in the 2021 &lt;a href="https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/european-industrial-strategy_en#:~:text=Europe%20is%20embarking%20on%20a,we%20enter%20this%20new%20age."&gt;EU industrial strategy&lt;/a&gt; and is forecasted to grow at an annual rate of 13% over the next decade.&lt;/p&gt;
+
+&lt;p&gt;Despite this compelling growth, the European cloud ecosystem is still limited in its ability to expand. To increase balance and boost cloud consumer purchasing power in the European market, the study introduces how Open Services Cloud platform brings three core innovations to streamline the process of using multiple clouds: a descriptive configuration language, a management portal, and a portable services and data solution. &lt;/p&gt;
+
+&lt;p&gt;The Open Services Cloud levels the playing field between cloud users and CSPs and ISVs. Especially beneficial to smaller businesses and start-ups, the Open Services Cloud opens the door for the emergence of a stronger European ecosystem of cloud service industry.&lt;/p&gt;
+
+&lt;p&gt;On April 25th, we will be hosting an in-person event in Brussels where you will learn from industry leaders, discover the results of our new study on cloud interoperability, and find out more about where the EU Data Act and the Digital Markets Act are heading when it comes to European cloud services. Register &lt;a href="https://events.eclipse.org/2023/unlockthecloud/"&gt;here&lt;/a&gt; to participate. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;About the Eclipse Foundation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation. The Foundation is home to the Eclipse IDE, Jakarta EE, and over 400 open source projects, including runtimes, tools, and frameworks for cloud and edge applications, IoT, AI, automotive, systems engineering, distributed ledger technologies, open processor designs, and many others. The Eclipse Foundation is an international non-profit association supported by over 330 members, including industry leaders who value open source as a key enabler for their business strategies. To learn more, follow us on Twitter&lt;a href="https://twitter.com/EclipseFdn"&gt; @EclipseFdn&lt;/a&gt;,&lt;a href="https://linkedin.com/company/eclipse-foundation"&gt; LinkedIn&lt;/a&gt; or visit&lt;a href="http://eclipse.org"&gt; eclipse.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Third-party trademarks mentioned are the property of their respective owners.&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Media contacts:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Schwartz Public Relations for the Eclipse Foundation, AISBL&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;Stephanie Brüls / Susanne Pawlik&lt;/p&gt;
+
+&lt;p&gt;Sendlinger Straße 42A&lt;/p&gt;
+
+&lt;p&gt;80331 Munich&lt;/p&gt;
+
+&lt;p&gt;EclipseFoundation@schwartzpr.de&lt;/p&gt;
+
+&lt;p&gt;+49 (89) 211 871 – 64 / -35&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Nichols Communications for the Eclipse Foundation, AISBL&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;Jay Nichols&lt;/p&gt;
+
+&lt;p&gt;jay@nicholscomm.com&lt;/p&gt;
+
+&lt;p&gt;+1 408-772-1551&lt;/p&gt;
+
+&lt;p&gt;514 Media Ltd for the Eclipse Foundation, AISBL (France, Italy, Spain)&lt;/p&gt;
+
+&lt;p&gt;Benoit Simoneau&lt;/p&gt;
+
+&lt;p&gt;benoit@514-media.com&lt;/p&gt;
+
+&lt;p&gt;M: +44 (0) 7891 920 370&lt;/p&gt;
+</description>
+  <pubDate/>
+    <dc:creator>Jacob Harris</dc:creator>
+    <guid isPermaLink="true">https://newsroom.eclipse.org/39468</guid>
+    </item>
+<item>
+  <title><a href="/news/announcements/open-letter-european-commission-cyber-resilience-act" hreflang="und">Open Letter to the European Commission on the Cyber Resilience Act</a></title>
+  <link>https://newsroom.eclipse.org/39437</link>
+  <description>&lt;p&gt;&lt;span style="font-weight: 400;"&gt;Dear Members of the European Parliament,&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;Dear Representatives to the Council of the European Union,&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;We, the undersigned, represent leading governance institutions within the European and global open source software community. We write to express our concern that the greater open source community has been underrepresented during the development of the Cyber Resilience Act (CRA) to date and wish to ensure this is remedied throughout the co-legislative process by lending our support.&lt;/span&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;Open source software (OSS) represents more than 70% of the software present in products with digital elements in Europe. Yet, our community does not have the benefit of an established relationship with the co-legislators. The software and other technical artefacts produced by us are unprecedented in their contribution to the technology industry along with our digital sovereignty and associated economic benefits on many levels. With the CRA, more than 70% of the software in Europe is about to be regulated without an in-depth consultation. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;As acknowledged in the EU’s Open Source Software Strategy 2020-2023, open source software plays a critical role in the digital economy, powering everything from cloud infrastructure to mobile applications to public transportation systems. In Europe alone, we represent about &lt;/span&gt;&lt;span style="font-weight: 400;"&gt;€&lt;/span&gt;&lt;span style="font-weight: 400;"&gt;100 billion in economic impact. It is therefore essential that any legislation that impacts the software industry takes into account the unique needs and perspectives of open source software, as well as our modern methodologies used to create software.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;We deeply share the CRA’s aim to improve the cybersecurity of digital products and services in the EU and embrace the urgent need to protect citizens and economies by improving software security.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;However, our voices and expertise should be heard and have an opportunity to inform public authorities' decisions. If the CRA is, in fact, implemented as written, it will have a chilling effect on open source software development as a global endeavour, with the net effect of undermining the EU’s own expressed goals for innovation, digital sovereignty, and future prosperity.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;Moving forward, we urge you to engage with the open source community and take our concerns into account as you consider the implementation of the Cyber Resilience Act. Specifically, moving forward, we urge you to:&lt;/span&gt; &lt;/p&gt;
+
+&lt;ol&gt;&lt;li style="font-weight: 400;"&gt;&lt;span style="font-weight: 400;"&gt;Recognise the unique characteristics of open source software and ensure that the Cyber Resilience Act does not unintentionally harm the open source ecosystem.&lt;/span&gt;&lt;/li&gt;
+	&lt;li style="font-weight: 400;"&gt;&lt;span style="font-weight: 400;"&gt;Consult with the open source community during the co-legislative process.&lt;/span&gt;&lt;/li&gt;
+	&lt;li style="font-weight: 400;"&gt;&lt;span style="font-weight: 400;"&gt;Ensure that any development under the CRA takes into account the diversity of open and transparent open source software development practices.&lt;/span&gt;&lt;/li&gt;
+	&lt;li style="font-weight: 400;"&gt;&lt;span style="font-weight: 400;"&gt;Establish a mechanism for ongoing dialogue and collaboration between the European institutions and the open source community, to ensure that future legislation and policy decisions are informed.&lt;/span&gt; &lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;span style="font-weight: 400;"&gt;The undersigned organisations collectively represent the governance of much of the open source software which industry and society rely on. We offer our collective expertise, including envisioning how these professional organisations may support a more inclusive and effective process to inform the CRA today. The same increase in dialog and collaboration will continue to support the CRA’s successful implementation in this new regulatory paradigm. We are prepared to send a representative delegation to meet with the members now. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;We appreciate your attention to this matter and look forward to working with you to ensure that the Cyber Resilience Act reflects the concerns and contributions of the entire software industry, including the open source community.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;Co-signed by the Executive Directors, Board Chairs, and Presidents on behalf of their respective organisations:&lt;/span&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://esop.pt/en"&gt;&lt;strong&gt;Associaçāo de Empresas de Software Open Source Portuguesas (ESOP)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://cnll.fr/"&gt;&lt;strong&gt;CNLL, the French Open Source Business Association&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.documentfoundation.org/"&gt;&lt;strong&gt;The Document Foundation (TDF)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.eclipse.org/"&gt;&lt;strong&gt;Eclipse Foundation&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.apell.info/"&gt;&lt;strong&gt;European Open Source Software Business Associations (APELL) &lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://coss.fi/"&gt;&lt;strong&gt;COSS - Finnish Centre for Open Systems and Solutions &lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://linuxfoundation.eu/"&gt;&lt;strong&gt;Linux Foundation Europe&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://openforumeurope.org/"&gt;&lt;strong&gt;Open Forum Europe (OFE)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://osb-alliance.de/"&gt;&lt;strong&gt;Open Source Business Alliance (OSBA)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://opensource.org/"&gt;&lt;strong&gt;Open Source Initiative (OSI)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://coss.fi/"&gt;&lt;strong&gt;Open Systems and Solutions (COSS)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.ow2.org/"&gt;&lt;strong&gt;OW2&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.softwareheritage.org/"&gt;&lt;strong&gt;Software Heritage Foundation&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+  <pubDate/>
+    <dc:creator>Jacob Harris</dc:creator>
+    <guid isPermaLink="true">https://newsroom.eclipse.org/39437</guid>
+    </item>
+<item>
+  <title><a href="/news/announcements/help-identify-iot-and-edge-computing-trends-participating-our-annual-survey" hreflang="und">Help Identify IoT and Edge Computing Trends By Participating in Our Annual Survey</a></title>
+  <link>https://newsroom.eclipse.org/39434</link>
+  <description>Eclipse Foundation head of marketing Karla Ferrer discusses what's new in the 2023 IoT &amp; Edge Developer and Adoption Survey, and what trends we expect to gain insight on. </description>
+  <pubDate/>
+    <dc:creator>Jacob Harris</dc:creator>
+    <guid isPermaLink="true">https://newsroom.eclipse.org/39434</guid>
+    </item>
+<item>
+  <title><a href="/news/announcements/la-fondation-eclipse-rejoint-la-soci%C3%A9t%C3%A9-informatique-de-france" hreflang="und">La Fondation Eclipse rejoint la Société informatique de France</a></title>
+  <link>https://newsroom.eclipse.org/39421</link>
+  <description>&lt;p&gt;&lt;strong&gt;Paris, France, le 09 mars 2023 – &lt;/strong&gt;&lt;span style="font-weight: 400;"&gt;La Fondation Eclipse annonce aujourd’hui avoir rejoint la Société Informatique de France afin de collaborer à une démarche commune qui vise à rassembler toutes celles et ceux pour qui faire progresser l’informatique est un métier ou une passion : enseignants, chercheurs, ingénieurs, industriels, et consultants. La Fondation Eclipse est convaincue que cette démarche doit passer par une bonne compréhension de l’open source et de ses pratiques.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;span style="font-weight: 400;"&gt;« Nous sommes très heureux et fier de rejoindre la SIF et faire partie de ses membres » explique Philippe Krief, directeur des relations avec la recherche à la Fondation Eclipse. La Fondation Eclipse s'implique d’ailleurs fortement dans les projets de recherche européens depuis dix ans, en les accompagnant dans la mise en œuvre et la pérennisation de leurs résultats sous forme de projets open source.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style="font-weight: 400;"&gt;« Ces nombreuses rencontres avec la communauté de recherche européenne nous ont permis de mieux comprendre les questionnements comme les idées reçues que le milieu de la recherche peut avoir vis-à-vis de l'open source » poursuit Philippe Krief. « Notre travail consiste donc à expliquer et à rassurer nos partenaires académiques, comme industriels, sur les bonnes pratiques de l'open source, à casser certains clichés, et à les accompagner dans le développement d'un projet open source, de sa communauté, et de sa pérennisation.                          &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;«  La Société informatique de France est particulièrement heureuse d'accueillir la fondation Eclipse parmi ses membres. Cette adhésion est un signe visible de l’existence de valeurs communes et d’une ambition partagée pour une science plus ouverte et une innovation plus citoyenne. C’est bien en ce sens qu’œuvre la fondation Eclipse et que se développe chaque jour davantage l’écosystème du logiciel libre au bénéfice de l’ensemble de la société.»  souligne Yves Bertrand, président de la SIF.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;– Fin –&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;À propos de la Fondation Eclipse&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;La Fondation Eclipse fournit à sa communauté mondiale de personnes et d'organisations un environnement mature, évolutif et convivial pour la collaboration et l'innovation en matière de logiciels open source. La Fondation héberge l'IDE Eclipse, Jakarta EE et plus de 400 projets open source, notamment des runtimes, des outils et des frameworks pour les applications cloud et edge, l'IoT, l'IA, l'automobile, l'ingénierie des systèmes, les conceptions de processeurs ouverts, et bien d'autres. La Fondation Eclipse est une association internationale à but non lucratif soutenue par plus de 330 membres, dont des leaders de l'industrie qui apprécient l'open source comme un catalyseur clé pour leurs stratégies commerciales. Pour en savoir plus, suivez-nous sur Twitter @ResearchEclipse, @EclipseFdn, LinkedIn ou visitez eclipse.org.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;À propos de la Société informatique de France&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;La Société Informatique de France (SIF) est la société savante française d’informatique. Elle a vu le jour en 2012 et est reconnue d'utilité publique depuis septembre 2018. Au cœur de la société, elle a vocation à porter la voix de l’informatique, science et technique, et celle des femmes et des hommes qui la font chaque jour. À ce titre, elle vise à rassembler toutes celles et ceux pour qui faire progresser l’informatique est un métier ou une passion : enseignantes, chercheuses, ingénieurs, industriels, consultantes. Société savante, la SIF vise tout particulièrement à promouvoir l’informatique, à servir et à animer sa communauté scientifique et technique, contribuer à la culture citoyenne et à l’enseignement de la discipline à tous les niveaux. Elle aspire à participer aux réflexions et initiatives sur la formation et l’emploi des informaticiennes et informaticiens et à porter la voix de la communauté dans les débats de société. Pour en savoir plus, visitez https://www.socinfo.fr.&lt;/span&gt;&lt;br /&gt;
+ &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Contact Eclipse pour la presse:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;514 Media Ltd for the Eclipse Foundation, AISBL (France, Italy, Spain)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;Benoit Simoneau&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;benoit@514-media.com&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;M: +44 (0) 7891 920 370&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ref: ECF018D&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Contacts SIF pour la presse :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;Yves BERTRAND, &lt;/span&gt;&lt;span style="font-weight: 400;"&gt;president@societe-informatique-de-france.fr&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;+33 (0)643 348 313&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-weight: 400;"&gt;Sylvie ALAYRANGUES, responsable communication, &lt;/span&gt;&lt;a href="mailto:sylvie.alayrangues@societe-informatique-de-france.fr"&gt;&lt;span style="font-weight: 400;"&gt;sylvie.alayrangues@societe-informatique-de-france.fr&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+  <pubDate/>
+    <dc:creator>Jacob Harris</dc:creator>
+    <guid isPermaLink="true">https://newsroom.eclipse.org/39421</guid>
+    </item>
+<item>
+  <title><a href="/news/announcements/take-2023-jakarta-ee-developer-survey" hreflang="und">Take the 2023 Jakarta EE Developer Survey</a></title>
+  <link>https://newsroom.eclipse.org/39398</link>
+  <description>This is the sixth edition of the survey, which started in 2018. Since its inception, thousands of software developers, architects, and decision-makers from around the world have participated. </description>
+  <pubDate/>
+    <dc:creator>Jacob Harris</dc:creator>
+    <guid isPermaLink="true">https://newsroom.eclipse.org/39398</guid>
+    </item>
+<item>
+  <title><a href="/news/announcements/adoptium-working-group-reports-significant-momentum-open-source-java-2023" hreflang="und">The Adoptium Working Group Reports Significant Momentum for Open Source Java in 2023</a></title>
+  <link>https://newsroom.eclipse.org/39370</link>
+  <description>&lt;p&gt;&lt;strong&gt;BRUSSELS, Belgium – &lt;/strong&gt;&lt;strong&gt;MARCH 14, 2023&lt;/strong&gt;&lt;strong&gt; – &lt;/strong&gt;The&lt;a href="https://www.eclipse.org/"&gt; Eclipse Foundation&lt;/a&gt;, one of the world’s largest open source software foundations, in collaboration with the &lt;a href="https://adoptium.net/"&gt;Adoptium Working Group&lt;/a&gt;, today announced significant momentum for the global open source Java ecosystem. This momentum comes in the wake of new licensing fee structures being introduced into the industry. In some cases, enterprises that have paid tens of thousands of dollars are now facing fees of millions of dollars for access to Java. &lt;/p&gt;
+
+&lt;p&gt;As a result, the uptake of free-to-use high-quality Java has never been higher. In February 2023 the Eclipse Foundation delivered over 12.3M downloads of Java SE TCK certified and AQAvit quality verified Eclipse Temurin binaries, more than double the number delivered in the same month last year. Eclipse Temurin has also become the default Java option for GitHub Actions, and multiple widely used cloud container images. As the entire open source Java ecosystem continues to experience a Renaissance, millions of developers and large Enterprise users are turning to the &lt;a href="https://adoptium.net/marketplace/"&gt;Adoptium Marketplace&lt;/a&gt; for their open Java runtimes. What’s more, the Adoptium Working Group is welcoming new strategic and enterprise members including Bloomberg, Google, and Rivos.&lt;/p&gt;
+
+&lt;p&gt;“In a macroeconomic climate where we are all forced to do more with less, options like Eclipse Temurin mean that businesses have choices for free-to-use quality Java runtimes without having to expend additional resources,” said Mike Milinkovich, executive director of the Eclipse Foundation. “With new members joining every month, the quality and consistency of the Adoptium Working Group’s output will only continue to grow to address that pressure.”&lt;/p&gt;
+
+&lt;p&gt;The Adoptium Working Group, which was founded by multiple participants, including many Java developers and vendors such as Alibaba Cloud, Azul, Huawei, IBM, iJUG, Microsoft, and Red Hat, provides the Java ecosystem with fully compatible, high-quality distributions of Java based on OpenJDK source code. For enterprises that rely on Java and wish to ensure an open, community-led future for this important open source option, joining the Working Group represents a critical step in taking control of their own technical destiny. &lt;/p&gt;
+
+&lt;p&gt;“2023 is shaping up to be an incredibly productive year for the Adoptium Working Group and for the entire open source Java ecosystem,” said Tim Ellison, PMC Lead for Eclipse Adoptium. “With our focus on secure development practices and high quality deliveries there has never been a better time for organizations to choose a free-to-use Java runtime.”&lt;/p&gt;
+
+&lt;p&gt;The Eclipse Adoptium project and the governing Adoptium Working Group are the continuation of the original AdoptOpenJDK mission, which was established in 2017 to address the general lack of an open, vendor-neutral, reproducible build and test system for OpenJDK across multiple platforms. Adoptium is now the leading provider of high-quality OpenJDK-based binaries used by Java developers across embedded systems, desktops, traditional servers, modern cloud platforms, and mainframes. The Adoptium Marketplace extends this leadership role and gives even more organizations a means of distributing their binaries. &lt;/p&gt;
+
+&lt;p&gt;If your organization is interested in participating in the Adoptium Working Group, you can view the &lt;a href="https://www.eclipse.org/org/workinggroups/adoptium-charter.php"&gt;Charter&lt;/a&gt; and &lt;a href="https://www.eclipse.org/org/workinggroups/wpga/adoptium-working-group-participation-agreement.pdf"&gt;Participation Agreement&lt;/a&gt;, or email us at &lt;a href="mailto:membership@eclipse.org"&gt;membership@eclipse.org&lt;/a&gt;. You can also participate as a sponsor; interested parties can view the &lt;a href="https://www.eclipse.org/org/workinggroups/sponsorship/working-group-sponsorship-agreement.pdf"&gt;Sponsorship Agreement&lt;/a&gt;. Both membership and sponsorship help assure sustainability.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Supporting Quotes from Adoptium Members: &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Google&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“We are excited to participate in the Adoptium Working Group and contribute to the future of Eclipse Temurin. Google is committed to making Google Cloud a premier cloud for Java developers and workflows, and we believe an open, secure, and high-quality vendor-neutral JDK distribution is a critical component to that.” Dan Gazineu, Engineering Manager, Google Cloud SDK&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Azul&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“Third-party Java runtimes were already on the rise prior to Oracle’s recent pricing changes, and we expect that trend to accelerate rapidly moving forward,” said Simon Ritter, Deputy CTO, Azul. “Java provides immense value across the DevSecOps lifecycle, but Oracle’s new employee-based pricing is divorced from that value. Customers are increasingly frustrated over what they see as arbitrary pricing changes, audit risks and a lack of overall predictability. Thankfully, drop-in replacements for Oracle abound, and offer a compelling value for Java-based enterprises.” &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Red Hat&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“As a long term contributor to open source Java SE, Red Hat applauds the sustained growth and uptake of OpenJDK and Temurin throughout modern, business-critical enterprise software solutions,” said Mark Little, VP, Engineering, Red Hat. “Adoptium is a leading example of a community-powered approach to delivering secure, reliable and high-performing open source software. Red Hat’s engagement in the Adoptium Working Group and confidence in the community is reflected in our expanded support offerings that include development and production use cases of Temurin, similar to the award-winning support that comes with the Red Hat build of OpenJDK. We wish Adoptium every continued success.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;About the Eclipse Foundation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation. The Foundation is home to the Eclipse IDE, Jakarta EE, and over 400 open source projects, including runtimes, tools, and frameworks for cloud and edge applications, IoT, AI, automotive, systems engineering, distributed ledger technologies, open processor designs, and many others. The Eclipse Foundation is an international non-profit association supported by over 330 members, including industry leaders who value open source as a key enabler for their business strategies. To learn more, follow us on Twitter&lt;a href="https://twitter.com/EclipseFdn"&gt; @EclipseFdn&lt;/a&gt;,&lt;a href="https://linkedin.com/company/eclipse-foundation"&gt; LinkedIn&lt;/a&gt; or visit&lt;a href="http://eclipse.org"&gt; eclipse.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Third-party trademarks mentioned are the property of their respective owners.&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Media contacts:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Schwartz Public Relations for the Eclipse Foundation, AISBL&lt;/p&gt;
+
+&lt;p&gt;Stephanie Brüls / Susanne Pawlik&lt;/p&gt;
+
+&lt;p&gt;Sendlinger Straße 42A&lt;/p&gt;
+
+&lt;p&gt;80331 Munich&lt;/p&gt;
+
+&lt;p&gt;EclipseFoundation@schwartzpr.de&lt;/p&gt;
+
+&lt;p&gt;+49 (89) 211 871 – 64 / -35&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Nichols Communications for the Eclipse Foundation, AISBL&lt;/p&gt;
+
+&lt;p&gt;Jay Nichols&lt;/p&gt;
+
+&lt;p&gt;jay@nicholscomm.com&lt;/p&gt;
+
+&lt;p&gt;+1 408-772-1551&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+ &lt;/p&gt;
+</description>
+  <pubDate/>
+    <dc:creator>Jacob Harris</dc:creator>
+    <guid isPermaLink="true">https://newsroom.eclipse.org/39370</guid>
+    </item>
+<item>
+  <title><a href="/news/announcements/open-source-software-leader-eclipse-foundation-previews-its-showcase-embedded" hreflang="und">Open Source Software Leader the Eclipse Foundation Previews its Showcase at Embedded World 2023</a></title>
+  <link>https://newsroom.eclipse.org/39377</link>
+  <description>&lt;p class="rtecenter"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:italic"&gt;&lt;span style="text-decoration:none"&gt;Come see the Eclipse Foundation and Zettascale in Hall 4, Booth 4-554&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.295; margin-bottom:11px"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:700"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;BRUSSELS, Belgium – MARCH 8, 2023 – &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;The&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;a href="https://www.eclipse.org/" style="text-decoration:none"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#1155cc"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:underline"&gt;&lt;span style="-webkit-text-decoration-skip:none"&gt;&lt;span style="text-decoration-skip-ink:none"&gt; Eclipse Foundation&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;, one of the world’s largest open source software foundations, today announced a preview of what it will be showcasing at this year’s Embedded World Exhibition and Conference, taking place in Nuremberg, Germany from March 14-16. As one of the most highly anticipated technology events in all of Europe, Embedded World offers unprecedented insight into the world of embedded systems, from components and modules to operating systems, hardware and software design, M2M communication, services, and various issues related to complex system design. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.295; margin-bottom:11px"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;This year, the Eclipse Foundation will be showcasing its Software Defined Vehicle (SDV) Working Group and its SDV strategy, a look at open source security for the software supply chain, a spotlight on European Commission research projects on the Cloud-to-Edge continuum, its Eclipse IoT and Edge Native Working Group projects, and an overall educational strategy on how organizations can succeed with open source. The Eclipse Foundation will also be joined in its booth by OpenHardware and by member company Zettascale, an innovative firm contributing to open source communication middleware (Eclipse Zenoh &amp; Eclipse Cyclone DDS) that underpin next-generation robotics, transportation, and mission-critical applications.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.295; margin-bottom:11px"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;“We’re very excited to be back to this great event in person,” said Mike Milinkovich, executive director of the Eclipse Foundation. “Embedded World is the ideal event for us, as it matches our growth markets and technical priorities perfectly.”&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.295; margin-bottom:11px"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;The Eclipse Foundation intends to provide Embedded World participants with deep insights into the following areas:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.295; margin-bottom:11px"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:700"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;Software Defined Vehicle: &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;The SDV Working Group’s mission is to foster collaboration across industries to create an open technology platform for the software defined vehicle of the future. The working group community has chosen a “code first” approach to facilitate more agile and faster time-to-market software development.  Meet the thriving SDV community with projects from Bosch, Microsoft, Cariad, T-Systems and more. We will be presenting our projects, and our vision to build a first showcase SDV Distribution.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.295; margin-bottom:11px"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:700"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;Security Best Practices for Embedded Systems: &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;The Eclipse Foundation is committed to ensuring the security of its projects' software supply chain. We have a dedicated security team that focuses on developing and implementing robust security policies and we’re bringing this expertise to Embedded World. Our team is actively involved in providing guidance and education to our projects on the best practices for software security. You'll have the opportunity to learn about these best practices and how they can benefit your project and community. By promoting and implementing these best practices, we aim to create a secure environment that benefits both our projects and their communities. In addition to providing education and guidance on best practices, our security team also offers a range of services and resources to help our projects maintain the highest level of security. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.295; margin-bottom:11px"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:700"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;Eclipse Research and our research projects on Cloud to Edge Continuum: &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;The Eclipse Foundation has been a partner in publicly funded research projects since 2014. We help organizations to successfully create, publish, and sustain an open source software platform, making the results of research projects available for commercial and public exploitation. Visit us to learn more about five ongoing research projects shaping the future of the European Cloud to Edge Continuum:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;&lt;li aria-level="1" style="list-style-type:disc"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;EuCloudEdgeIoT.eu: Building the European, Cloud, Edge &amp; IoT Continuum for business and research &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li aria-level="1" style="list-style-type:disc"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;NEMO: Next Generation Meta Operating System&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li aria-level="1" style="list-style-type:disc"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;NEPHELE: A software stack and orchestration framework for the compute continuum&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li aria-level="1" style="list-style-type:disc"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;SPADE: Multi-purpose physical-cyber agri-forest drones ecosystem for governance and environmental observation&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li aria-level="1" style="list-style-type:disc"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;TRANSACT: Towards safe and secure distributed cyber-physical systems&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p style="line-height:1.295; margin-bottom:11px"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:700"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;IoT, Edge Native and Sparkplug: &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;The Eclipse Foundation is the home of over 50 open source projects related to IoT and Edge Computing. From protocol implementations to comprehensive platforms for software updates and device connectivity, our toolkit is the most comprehensive in the industry. Drop by to get an overview or stop for a short demo of key components. We are particularly proud of our Sparkplug open specification, which brings out-of-the-box interoperability to MQTT infrastructure and is on its way to become an ISO/IEC international standard. You will also get to meet Frédéric Desbiens, author of “Building Enterprise IoT Solutions with Eclipse IoT Technologies,” published by Apress in December 2022. Bring your copy and get it signed!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.295; margin-bottom:11px"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:700"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;Learn How to Succeed with Open Source: &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;We will present how open source best practices, and how, beyond open source, the Eclipse Foundation enables open collaborations between industry players. This presentation targets more specifically companies that are new to open source and want to understand how to better embrace open source as a strategic advantage.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.295; margin-bottom:11px"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;If your organization is interested in participating in these projects or would like to meet with us at Embedded World conference, please stop by our booth in Hall 4, Booth 4-554, or email us at membership@eclipse.org.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:700"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;About the Eclipse Foundation&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001; margin-bottom:11px"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation. The Foundation is home to the Eclipse IDE, Jakarta EE, and over 400 open source projects, including runtimes, tools, and frameworks for cloud and edge applications, IoT, AI, automotive, systems engineering, distributed ledger technologies, open processor designs, and many others. The Eclipse Foundation is an international non-profit association supported by over 330 members, including industry leaders who value open source as a key enabler for their business strategies. To learn more, follow us on Twitter&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;a href="https://twitter.com/EclipseFdn" style="text-decoration:none"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#1155cc"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:underline"&gt;&lt;span style="-webkit-text-decoration-skip:none"&gt;&lt;span style="text-decoration-skip-ink:none"&gt;@EclipseFdn&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;a href="https://linkedin.com/company/eclipse-foundation" style="text-decoration:none"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#1155cc"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:underline"&gt;&lt;span style="-webkit-text-decoration-skip:none"&gt;&lt;span style="text-decoration-skip-ink:none"&gt;LinkedIn&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt; or visit&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;a href="http://eclipse.org" style="text-decoration:none"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#1155cc"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:underline"&gt;&lt;span style="-webkit-text-decoration-skip:none"&gt;&lt;span style="text-decoration-skip-ink:none"&gt;eclipse.org&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001; margin-bottom:11px"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;Third-party trademarks mentioned are the property of their respective owners.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001; background-color:#ffffff; padding:0pt 0pt 8pt 0pt"&gt;&lt;span style="font-size:9pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Arial"&gt;&lt;span style="color:#222222"&gt;&lt;span style="font-weight:700"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;About ZettaScale &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001; background-color:#ffffff; padding:0pt 0pt 8pt 0pt"&gt;&lt;span style="font-size:10.5pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Arial"&gt;&lt;span style="color:#1e1e1e"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;ZettaScale's mission is to bring to every connected human and machine the unconstrained freedom to communicate, compute and store — anywhere, at any scale, efficiently and securely. The company develops open source communication middleware (Eclipse Zenoh &amp; Eclipse Cyclone DDS) that underpins next-generation robotics, transportation and mission critical applications. As devices in the physical world become connected, instrumented and interdependent, ZettaScale enables device creators to easily achieve robust, secure and scalable communication.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001; text-align:center; margin-bottom:11px"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;###&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:700"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;Media contacts:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:underline"&gt;&lt;span style="-webkit-text-decoration-skip:none"&gt;&lt;span style="text-decoration-skip-ink:none"&gt;Schwartz Public Relations for the Eclipse Foundation, AISBL&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;Stephanie Brüls / Susanne Pawlik&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;Sendlinger Straße 42A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;80331 Munich&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;EclipseFoundation@schwartzpr.de&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;+49 (89) 211 871 – 64 / -35&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:underline"&gt;&lt;span style="-webkit-text-decoration-skip:none"&gt;&lt;span style="text-decoration-skip-ink:none"&gt;Nichols Communications for the Eclipse Foundation, AISBL&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;Jay Nichols&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;jay@nicholscomm.com&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="line-height:1.3800000000000001"&gt;&lt;span style="font-size:11pt; font-variant:normal; white-space:pre-wrap"&gt;&lt;span style="font-family:Calibri,sans-serif"&gt;&lt;span style="color:#000000"&gt;&lt;span style="font-weight:400"&gt;&lt;span style="font-style:normal"&gt;&lt;span style="text-decoration:none"&gt;+1 408-772-1551&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+</description>
+  <pubDate/>
+    <dc:creator>Shanda Giacomoni</dc:creator>
+    <guid isPermaLink="true">https://newsroom.eclipse.org/39377</guid>
+    </item>
+
+  </channel>
+</rss>
