@@ -3,13 +3,13 @@ package BOJ_11060_Cho;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BOJ_11060_Á¡ÇÁÁ¡ÇÁ_Cho {
+public class BOJ_11060_ì í”„ì í”„_Cho {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
-		int[] jNum = new int[N + 1]; //1ºÎÅÍ ½ÃÀÛÇÏ±âÀ§ÇØ ÇÏ³ª Å©°Ô ¸¸µë
-		int[] dp = new int[N + 1]; //dp¿ª½Ã ¸¶Âù°¡Áö
-		Arrays.fill(dp, 1000000); //MaxInteger·Î ÇÏ¸é µÚÂÊ¿¡ ¹®Á¦ »ı°Ü¼­ ¿©±â¼­ ¹Ì¸® ÀüÃ³¸®
+		int[] jNum = new int[N + 1]; //1ë¶€í„° ì‹œì‘ ì í”„ì í”„ í• ìˆ˜ìˆëŠ” ë²”ìœ„ ë°°ì—´
+		int[] dp = new int[N + 1]; //dpìš© ë°°ì—´
+		Arrays.fill(dp, 1000000); //MaxIntegerë¡œ í•˜ë©´ +1ì—ì„œ ìŒìˆ˜ê°’ë˜ì„œ ì ë‹¹íˆ ê°’ ì •í•´ì¤Œ
 		for (int i = 1; i <= N; i++) {
 			jNum[i] = sc.nextInt();
 		}
@@ -18,8 +18,8 @@ public class BOJ_11060_Á¡ÇÁÁ¡ÇÁ_Cho {
 			for (int j = i + 1; j <= i + jNum[i]; j++)
 				if (j <= N)	
 					dp[j] = Math.min(dp[j], dp[i] + 1);
-		} //³»°¡ °¥¼ö ÀÖ´Â ¸ğµç ÁöÁ¡¿¡ ±â·Ï ÃÖÀú°ª¸¸ ³²±è
-		if (dp[N] > 10000) //1000ÀÌ¸é 
+		} //íŠ¹ì •ì§€ì ì—ì„œ ê°ˆ ìˆ˜ ì‡ëŠ” ì§€ì ê¹Œì§€ ëª¨ë‘ ê³„ìƒ¨
+		if (dp[N] > 10000) //1000ì´ˆê³¼ë©´ ì•„ë¬´ê±°ë‚˜ ìƒê´€ì—†ìŒ
 			System.out.println(-1);
 		else
 			System.out.println(dp[N]);

@@ -2,45 +2,44 @@ package BOJ_17070_Cho;
 
 import java.util.Scanner;
 
-//»ç¶÷°£ÀÇ Â÷ÀÌ´Â ¾øÀ½ 
-//50¿ø°¡Áø »ç¶÷ÀÇ ¼ö°¡ queue°üÁ¡¿¡¼­ Ç×»ó 100¿ø°¡Áø »ç¶÷º¸´Ù ¸¹¾Æ¾ß ÇÔ.
-public class BOJ_17070_ÆÄÀÌÇÁ¿Å±â±â_Cho {
+
+public class BOJ_17070_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å±ï¿½ï¿½_Cho {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		boolean[][] wall = new boolean[N][N];
-		int[][] dpRow = new int[N][N]; // Çà dp
-		int[][] dpCol = new int[N][N]; // ¿­ dp
-		int[][] dpCross = new int[N][N]; // ´ë°¢¼± dp
+		int[][] dpRow = new int[N][N]; // ì„¸ë¡œ dp
+		int[][] dpCol = new int[N][N]; //  ê°€ë¡œ dp
+		int[][] dpCross = new int[N][N]; // ëŒ€ê°ì„  dp
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < N; j++) {
 				if (sc.nextInt() == 1)
 					wall[i][j] = true;
 			}
-		} // ºó º®Àº 1·Î dp¿¡ ³Ö¾îµÎ¾î Áö³ª°¥ ¼ö¾øÀ½À» Ç¥½Ã
+		} // ë²½ì€ ë¯¸ë¦¬ trueë¡œ ë§Œë“¤ì–´ ì§€ë‚˜ê°“ë‹¤ëŠ” ì„¤ì •ìœ¼ë¡œ í•´ë‘ 
 		dpRow[0][1] = 1;
 		for (int i = 2; i < N; i++) {
 			if (wall[0][i]) {
 				break;
-			}
+			} 
 
 			dpRow[0][i] = 1;
 
-		} // ¤Ñ ¹æÇâ (¸ÇÀ§) º®ÀÌ ¾ø´Ù¸é ÀüºÎ 1, ÀÖ´Ù¸é ±× µÚ·Î´Â 0
+		} //ì²«ì§¸ì¤„ dp ê¸°ë³¸ ì„¤ì • ë²½ë§Œë‚˜ë©´ ê·¸ ë’¤ëŠ” ë”ì´ìƒ ëª»ê°€ë¯€ë¡œ 0 
 		for (int i = 1; i < N; i++) {
 			for (int j = 1; j < N; j++) {
 				if (wall[i][j]) {
 
-				} // i, j ÁöÁ¡ÀÌ º®ÀÌ¶ó¸é 0 °ª ³ÀµÒ
+				} // ë²½ì´ìˆìœ¼ë©´ ë
 				else {
 					if (wall[i][j]) {
-
+		//ë‹¤ì‹œ ë³´ë‹ˆ ì´ê±´ í•„ìš”ì—†ëŠ” ë“¯
 					} else {
 						dpRow[i][j] = dpRow[i][j - 1] + dpCross[i][j - 1];
 						dpCol[i][j] = dpCol[i - 1][j] + dpCross[i - 1][j];
 						if (!wall[i][j - 1] && !wall[i - 1][j])
 							dpCross[i][j] = dpRow[i - 1][j - 1] + dpCol[i - 1][j - 1] + dpCross[i - 1][j - 1];
-						//´ë°¢¼±½Ã ¸·È÷´Â ºÎºĞ È®ÀÎ¿ë ·ÎÁ÷ ¸·Èú°æ¿ì¿¡´Â ´ë°¢¼± »©°í ´õÇÏ°í, ¾È¸·Èù °æ¿ì¿¡´Â ´ë°¢¼± dpµµ ¸¸µë.
+						//ê°€ë¡œ dp ì„¸ë¡œ dp ëŒ€ê° dpì¡°ê±´ì— ë§ì¶°ì„œ í•´ë‹¹ ì§€ì–µì„ ê°€ë¡œ íŒŒì´í”„ë¡œ ê°ˆ ë•Œ, ì„¸ë¡œ íŒŒì´í”„, ëŒ€ê°íŒŒì´í”„ì¼ë•Œ ê°ê°ê³„ì‚°
 					}
 				}
 			}
@@ -68,9 +67,9 @@ public class BOJ_17070_ÆÄÀÌÇÁ¿Å±â±â_Cho {
 //
 //			}
 //			System.out.println();
-//		} //µğ¹ö±ë¿ë
+//		} //ë””ë²„ê¹…ìš©
 
 		System.out.println(dpRow[N - 1][N - 1] + dpCol[N - 1][N - 1] + dpCross[N - 1][N - 1]);
-		
+			//ê°€, ì„¸, ëŒ€ê° ë‹¤ í•©ì¹œê²Œ ë‹µ
 	}
 }

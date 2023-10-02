@@ -2,7 +2,7 @@ package BOJ_22115_Cho;
 
 import java.util.Scanner;
 
-public class BOJ_22115_Ã¢¿µÀÌ¿ÍÄ¿ÇÇ_Cho {
+public class BOJ_22115_ì°½ì˜ì´ì™€ì»¤í”¼_Cho {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
@@ -14,20 +14,19 @@ public class BOJ_22115_Ã¢¿µÀÌ¿ÍÄ¿ÇÇ_Cho {
 		int[][] dp = new int[N + 1][K + 1];
 		for (int i = 0; i < N + 1; i++)
 			for (int j = 1; j < K + 1; j++)
-				dp[i][j] = 150; //Àû´çÈ÷ Å«°ªÀ¸·Î ´Ù ³Ö¾îµÎ°í ºñ±³ÇÏ¸é¼­ ÀÛÀº °ª³ª¿Àµµ·Ï
+				dp[i][j] = 150; //ì ë‹¹í•œ ë¶ˆê°€ëŠ¥í•œ ê°’ ì„¤ì •
 		int max = 0;
-		for (int i = 1; i <= N; i++) { //2Â÷¿ø dp ±×´ë·Î
-			max += C[i]; // ÇØ´çÄ¿ÇÇ±îÁö ¾òÀ»¼öÀÖ´Â ÃÖ°í Ä«ÆäÀÎ °è»ê 
+		for (int i = 1; i <= N; i++) {
+			max += C[i];
 			for (int j = 1; j <= K; j++) {
 				if (j - C[i] > 0) {
-					if (j > max) //ÇØ´çÄ¿ÇÇ±îÁö ¾òÀ»¼öÀÖ´Â ÃÖ°í Ä«ÆäÀÎ ³ÑÀ» °æ¿ì ´õ °è»ê ¾ÈÇÔ
+					if (j > max)
 						break;
-					dp[i][j] = Math.min(dp[i - 1][j - C[i]] + 1, dp[i - 1][j]); // Àú¹ø°Å¶û ºñ±³
+					dp[i][j] = Math.min(dp[i - 1][j - C[i]] + 1, dp[i - 1][j]);
 				} else if (j - C[i] == 0)
-					dp[i][j] = 1; //Ã¹ Ä¿ÇÇ¸¶½Ç¼öÀÖÀ¸¸é °Å±â¿¡ 1±â·Ï
+					dp[i][j] = 1;
 				else {
 					dp[i][j] = dp[i-1][j];
-					//Ä¿ÇÇ°¡ ¾òÀ» ¼öÀÖ´Â Ä«ÆäÀÎº¸´Ù ÀûÀ¸¸é Àú¹ø dp²¨ °¡Á®¿È
 				}
 			}
 		}
@@ -38,12 +37,12 @@ public class BOJ_22115_Ã¢¿µÀÌ¿ÍÄ¿ÇÇ_Cho {
 //			}
 //			System.out.println();
 //		}
-		
+		//ë””ë²„ê¹…ìš©
 		
 		
 		
 		if (dp[N][K] >100)
-			System.out.println(-1); //¹®Á¦»ó 100³ÑÀ»¼ö¾øÀ¸¹Ç·Î 100³ÑÀ¸¸é ºÒ°¡´É
+			System.out.println(-1); // ë¬¸ì œ ì¡°ê±´ìƒ 100ì„ ë„˜ì„ ìˆ˜ ì—†ìœ¼ë¯€ë¡œ ë„˜ëŠ”ë‹¤ëŠ”ê²ƒì€ ë¶ˆê°€ëŠ¥ ì˜ë¯¸
 		else
 			System.out.println(dp[N][K]);
 

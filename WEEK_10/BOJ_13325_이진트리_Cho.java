@@ -2,21 +2,21 @@ package BOJ_13325_Cho;
 
 import java.util.Scanner;
 
-public class BOJ_13325_ÀÌÁøÆ®¸®_Cho {
+public class BOJ_13325_ì´ì§„íŠ¸ë¦¬_Cho {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int k = sc.nextInt();
-		int wSum = 0; //°¡ÁßÄ¡ ÇÕ
-		int maxNum = (int) Math.pow(2, k+1); //ÀüÃ¼ Æ®¸® ±íÀÌ¸¦ ÀÌ¿ëÇÑ ¹è¿­ Å©±â ±â·Ï
-		int[] weight = new int[maxNum]; //°¡ÁßÄ¡ ±â·Ï
-		int[] dp = new int[maxNum]; //¾Æ·¡¿¡¼­ À§·Î¿Ã¶ó°¡¸é¼­ °¡ÁßÄ¡µé ÇÕ ±â·Ï¿ë
+		int wSum = 0; //ê°€ì¤‘ì¹˜í•© ì €ì¥ìš©
+		int maxNum = (int) Math.pow(2, k+1); //íŠ¸ë¦¬í¬ê¸°ë¥¼ í†µí•œ ë°°ì—´ ë§Œë“¤ê¸°
+		int[] weight = new int[maxNum]; //ê°€ì¤‘ì¹˜
+		int[] dp = new int[maxNum]; //íŠ¸ë¦¬ dp ì•„ë˜ê²ƒ ê°€ì¤‘ì¹˜ë¥¼ ë”í•œê±°
 		for (int i = 2; i < maxNum; i++)
-			weight[i] = sc.nextInt(); //¹Ş¾Æ¿À±â
+			weight[i] = sc.nextInt(); //ì…ë ¥ë
 		for (int i = maxNum / 2; i < maxNum; i++)
-			dp[i] = weight[i]; // Á¦ÀÏ ±íÀº °÷¿¡ ÀÖ´Â ³ëµåµé¿¡ ÇØ´çÇÏ´Â °¡ÁßÄ¡ ±â·Ï
+			dp[i] = weight[i]; // íŠ¸ë¦¬ ë§¨ ì•„ë˜ë¶€ë¶„ì€ dpì— ë°”ë¡œ ì €ì¥
 		for (int i = maxNum / 2 - 1; i >= 1; i--) {
-			dp[i] = weight[i]+ Math.max(dp[i * 2], dp[i * 2 + 1]); // ÀÚ±â ¾Æ·¡ µÎ °¡ÁßÄ¡ Áß Å«°É·Î µÑ´Ù ¶È°°ÀÌ ¸¸µé¾îÁÖ¾î¾ß ÇÏ¹Ç·Î ÀÌ·¸°Ô ±â·Ï
-			wSum += Math.max(dp[i*2],  dp[i*2+1]); //Á¦ÀÏ ±íÀº°÷±îÁö Áß 1°³¸¸ ´õÇÔ // ´Ù¸¥ ÇÑ°³´Â ÀÚµ¿À¸·Îdp[1]¿¡ ´©ÀûµÇ¾î ¸¶Áö¸·¿¡ ´õÇØÁÜ
+			dp[i] = weight[i]+ Math.max(dp[i * 2], dp[i * 2 + 1]); // íŠ¸ë¦¬ ìœ— ë¶€ë¶„ì€ ë°‘ì˜ ê°€ì§€ ì¤‘ í° ê°’ + ê°€ì¤‘ì¹˜
+			wSum += Math.max(dp[i*2],  dp[i*2+1]); //ê°€ì¤‘ì¹˜ì— ì €ì¥ ë§ˆì§€ë§‰ì— dp[1]ì„ ë”í•´ì£¼ë©´ ëª¨ë“  ê°€ì¤‘ì¹˜ì˜ í•©ì´ ë¨
 		}
 		wSum += dp[1];
 		System.out.println(wSum);
