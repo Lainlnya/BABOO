@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class BOJ_14699_°ü¾Ç»êµî»ê_Cho {
+public class BOJ_14699_ê´€ì•…ì‚°ë“±ì‚°_Cho {
 	static boolean[] visited;
 	static int[][] h;
 
@@ -21,16 +21,16 @@ public class BOJ_14699_°ü¾Ç»êµî»ê_Cho {
 		int N = Integer.parseInt(st.nextToken());
 		int M = Integer.parseInt(st.nextToken());
 		h = new int[N + 1][2];
-		h[0][1] = Integer.MAX_VALUE; // ³»¸²Â÷¼ø Á¤·ÄÇÒ °ÍÀÎµ¥ 0°ªÀÌ °Å½½¸®¹Ç·Î Á¦ÀÏ Å«°ªÀ¸·Î ¹İµå½Ã ¸Ç ¾Õ¿¡ ¿Àµµ·Ï ÇÔ
+		h[0][1] = Integer.MAX_VALUE; //
 		st = new StringTokenizer(br.readLine());
 		for (int i = 1; i <= N; i++) {
-			h[i][0] = i; // ½°ÅÍ ¹øÈ£
-			h[i][1] = Integer.parseInt(st.nextToken()); // ½°ÅÍ À§Ä¡ ³ôÀÌ
+			h[i][0] = i; // ì‰¼í„° ë²ˆí˜¸ì €ì¥
+			h[i][1] = Integer.parseInt(st.nextToken()); // ì‰¼í„° ë†’ì´ ì €ì¥
 		}
 		ArrayList<Integer>[] E = new ArrayList[N + 1];
 		for (int i = 1; i <= N; i++)
 			E[i] = new ArrayList<>();
-		//½°ÅÍ ³ôÀÌ ¿¬°á¿ë
+		// ìœ„ì—ì„œ ì•„ë˜ë°©í–¥ìœ¼ë¡œë§Œ ì €ì¥í•  ì˜ˆì •
 		for (int i = 0; i < M; i++) {
 			st = new StringTokenizer(br.readLine());
 			int connect1 = Integer.parseInt(st.nextToken());
@@ -38,7 +38,7 @@ public class BOJ_14699_°ü¾Ç»êµî»ê_Cho {
 			if (h[connect1][1] > h[connect2][1])
 				E[connect1].add(connect2);
 			else
-				E[connect2].add(connect1); // ´õ ³ôÀº°÷¿¡¸¸ ¿¬°áÇØ³ğ À§¿¡ÀÖÀ»¼ö·Ï dp ¿¡¼­´ÂºÒ¸®
+				E[connect2].add(connect1); //ìœ„ì—ì„œ ì•„ë˜ë¡œ ë–¨ì–´ì§€ê¸° ë•Œë¬¸ì— ë†’ì´ê°€ ë†’ì€ ê³³ì—ì„œë§Œ ì €ì¥
 		}
 		Arrays.sort(h, new Comparator<int[]>() {
 
@@ -49,15 +49,15 @@ public class BOJ_14699_°ü¾Ç»êµî»ê_Cho {
 			}
 
 		});
-		//³»¸²Â÷¼øÀ¸·Î Á¤¸®
-		int[] dp = new int[N + 1]; //dp¹è¿­
+		//ë¨¼ì € ì €ì¥í•˜ê³  í¬ê¸°ìˆœìœ¼ë¡œ ì •ë ¬(ë‚´ë¦¼ì°¨ìˆœ)
+		int[] dp = new int[N + 1]; //dpìš©
 		for (int i = 1; i <= N; i++) {
 			int node = h[i][0];
 			if (dp[node] ==0)
-				dp[node] = 1; //½ÃÀÛÁöÁ¡ÀÌ¸é ÀÏ´Ü 1³Ö±â
+				dp[node] = 1; //ë§¨ ìœ„ ì‰¼í„°ëŠ” ìê¸°ìì‹ ë§Œ ê°ˆ ìˆ˜ ìˆìœ¼ë¯€ë¡œ 1
 			for (int nNode : E[node])
 				dp[nNode] = Math.max(dp[nNode], dp[node]+1);
-			//¿¬°áµÈ ³ëµå·Î °¡µÅ ÀÌ¹Ì °ªÀÌ ÀÖÀ¸¸é ºñ±³ÇØ¼­ Å« °ª ³²±è 
+			// ë‚´ë ¤ê°ˆìˆ˜ë¡ ë”í•´ì¤Œ íŠ¹ì • ì‰¼í„°ì— ê°ˆ ë•Œ ì´ë¯¸ ì €ì¥ëœ ê°’ê³¼ ë¹„êµí•´ì„œ í°ê±°ì„ íƒ
 		} // startN for
 		for (int i = 1; i <=N; i++)
 			sb.append(dp[i] + "\n");
