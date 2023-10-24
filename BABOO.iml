@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WEEK_01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WEEK_02" isTestSource="false" packagePrefix="BOJ" />
+      <sourceFolder url="file://$MODULE_DIR$/WEEK_05" isTestSource="false" packagePrefix="BOJ_13305_주유소" />
+      <sourceFolder url="file://$MODULE_DIR$/WEEK_06" isTestSource="false" packagePrefix="BOJ_5464_주차장" />
+      <sourceFolder url="file://$MODULE_DIR$/WEEK_08" isTestSource="false" packagePrefix="BOJ_2251_물통" />
+      <sourceFolder url="file://$MODULE_DIR$/WEEK_09" isTestSource="false" packagePrefix="Practice" />
+      <sourceFolder url="file://$MODULE_DIR$/WEEK_11" isTestSource="false" packagePrefix="BOJ_21610_마법사상어와비바라기" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
