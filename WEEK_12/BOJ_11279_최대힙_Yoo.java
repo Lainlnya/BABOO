@@ -15,33 +15,33 @@ int main ()
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
-// 선언, 입력
-    int n;
-    cin >> n;
+	// 선언, 입력
+   	 int n;
+   	 cin >> n;
 
-//우선순위 큐
-    priority_queue<int> q;
+		//우선순위 큐
+    		priority_queue<int> q;
 		
 		for(int i =0; i<n; i++) {
 			int a;
-            cin >> a;
+            		cin >> a;
             
 			if(a==0) {
 			
-			//비었으면 0
+				//비었으면 0
 				if(q.empty()) {
-					cout << 0<< "\n";
+				cout << 0<< "\n";
 				}
 				// 가장 위에 출력
 				else {
-                    cout << q.top() << "\n";
-                    q.pop();
+                   		cout << q.top() << "\n";
+                   		q.pop();
 				}
 			}
 			
 			//아니라면 집어넣기
 			else {
-				q.push(a);				
+			q.push(a);				
 			}
 		}
     return 0;
