@@ -13,6 +13,8 @@ public class BOJ_14235_크리스마스선물_Kim {
         StringTokenizer st = null;
         StringBuilder sb = new StringBuilder();
         int totalNum = Integer.parseInt(br.readLine());
+        
+        // 큐 조건 선언 -> reverse로
         PriorityQueue<Integer> giftBox = new PriorityQueue<Integer>((i, j) -> j - i);
 
         for (int i = 0; i < totalNum; i++) {

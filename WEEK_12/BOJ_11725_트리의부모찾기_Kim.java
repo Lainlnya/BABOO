@@ -33,6 +33,7 @@ public class BOJ_11725_트리의부모찾기_Kim {
             tree.get(a).add(b);
             tree.get(b).add(a);
         }
+        
         dfs(1);
 
         for (int i = 2; i < parents.length; i++) {
@@ -44,6 +45,7 @@ public class BOJ_11725_트리의부모찾기_Kim {
     public static void dfs(int start) {
         visited[start] = true;
 
+        
         for (int vertex : tree.get(start)) {
             if (!visited[vertex]) {
                 parents[vertex] = start;
