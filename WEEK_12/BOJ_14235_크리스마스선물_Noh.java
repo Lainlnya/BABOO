@@ -1,46 +1,45 @@
-package BOJ_23757_아이들과선물상자;
+package BOJ_14235_크리스마스선물;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class Main {
+	public static int n, cnt;
+	// 가진 선물 중 가장 가치가 큰 선물을 선물해주므로 우선순위큐 사용
+	public static PriorityQueue<Integer> pq;
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		// 높은 숫자가 우선이 되도록 Collections.reverseOrder()
+		pq = new PriorityQueue<>(Collections.reverseOrder());
 
-		// 선물 상자의 개수
-		int box = sc.nextInt();
-		// 아이들의 수
-		int childNum = sc.nextInt();
+		// 아이들과 거점지를 방문한 횟수
+		n = sc.nextInt();
 
-		// 큰 숫자가 우선이 되도록 하기 위해서!
-		PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
-
-		for (int i = 1; i <= box; i++) {
-			// i번째 상자에 담겨있는 선물의 개수
-			int cnt = sc.nextInt();
-			pq.add(cnt);
-		}
-
-		for (int i = 1; i <= childNum; i++) {
-			// i번째 아이가 원하는 선물의 개수
-			int nowNeed = sc.nextInt();
-			// 현재 선물이 가장 많이 담겨있는 상자에 담긴 선물의 개수
-			int nowStock = pq.poll();
-
-			// i번째 아이가 원하는 선물의 개수만큼 없다면
-			if (nowStock < nowNeed) {
-				// 0출력하고 종료
-				System.out.println(0);
-				return;
-			} else {
-				// 가져가고 남은 선물의 개수를 다시 큐에 넣어줌
-				pq.add(nowStock - nowNeed);
+		for (int i = 0; i < n; i++) {
+			// 0이면 아이들 만나서 선물 준 것, 아니면 거점지에서 action개의 선물 충전
+			cnt = sc.nextInt();
+			if (cnt == 0) {
+				// 큐가 비어 있으면 선물이 없으므로 -1출력
+				if (pq.isEmpty()) {
+					System.out.println(-1);
+				} else {
+					// 아이들에게 준 선물의 가치 출력
+					int value = pq.poll();
+					System.out.println(value);
+				}
+			}
+			// 거점지에 방문했다면
+			else {
+				// cnt에는 충전한 선물의 개수
+				for (int j = 0; j < cnt; j++) {
+					// 충전하는 선물의 가치
+					int value = sc.nextInt();
+					pq.add(value);
+				}
 			}
 		}
-		
-		// 모든 아이들이 실망하지 않고 가져갔으면 1출력
-		System.out.println(1);
 
 	} // main
 } // class
