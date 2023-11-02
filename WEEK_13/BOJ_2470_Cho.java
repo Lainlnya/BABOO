@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class BOJ_2467_Cho {
+public class BOJ_2470_Cho {
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(bf.readLine());
@@ -22,11 +22,15 @@ public class BOJ_2467_Cho {
 			else
 				minus[++mIdx] = num;
 		}
-		// mIdx, pIdx�� �迭�� ������ ����Ű���� ����
-		// �÷����� plus�迭�� ���̳ʽ� ���� minus �迭�� ���
-
+		// mIdx, pIdx가 배열의 끝값을 가리키도록 보정
+		// 플러스는 plus배열에 마이너스 값은 minus 배열에 담기
+		if (pIdx >= 1)
+			Arrays.sort(plus, 0, pIdx +1);
+		if (mIdx >= 1)
+			Arrays.sort(minus, 0, mIdx +1);
+		// 플마 따로 정렬 놀랍게도 앞에 문제는 정렬이 필요없어서 맞았음 앞에것도 고쳤음
 		int mArr[] = new int[2];
-		// �� ��� ���� �׸� �����
+		// 두 용액 담을 그릇 만들기
 		Arrays.fill(mArr, 1000000001);
 		if (pIdx >= 1) {
 			mArr = near(mArr, plus[0], plus[1]);
@@ -34,17 +38,19 @@ public class BOJ_2467_Cho {
 		if (mIdx >= 1) {
 			mArr = near(mArr, minus[mIdx - 1], minus[mIdx]);
 		}
-		if (pIdx >= 0 && mIdx >= 00)
-			mArr = near(mArr, plus[pIdx], minus[mIdx]);
+		if (pIdx >= 0 && mIdx >= 0) {
+			mArr = near(mArr, plus[pIdx], minus[0]);
+			mArr = near(mArr, plus[0], minus[mIdx]);			
+		}
 		
 
-		// ������ ����ó���� - 2��, +2�� ���� ����, +- �� ���� ���Ѱ��� ��
-		int mUpperIdx = 0; // �������� �̱⿡ ����������(- �� ���� ū��) 0���� ��ġ��
-		// �׷��� �ö󰡸鼭 üũ�ؾ��ؼ� ���Ӱ� ���� ����
+		// 마지막 예외처리용 - 2개, +2개 더한 값과, +- 양 끝값 더한값도 비교
+		int mUpperIdx = 0; // 오름차순 이기에 가장작은게(- 가 가장 큰게) 0번에 위치함
+		// 그래서 올라가면서 체크해야해서 새롭게 변수 만듬
 		while (pIdx > 0 || mUpperIdx < mIdx) {
 			if (pIdx == -1 || mIdx == -1)
 				break;
-		 // ���� �ϳ��� �迭�� ����ִٸ� �ǹ� �����Ƿ� �ٷ� Ż��
+		 // 둘중 하나의 배열이 비어있다면 의미 없으므로 바로 탈출
 			mArr = near(mArr, plus[pIdx], minus[mUpperIdx]);
 			if (pIdx == 0) {
 				mUpperIdx++;
@@ -55,7 +61,7 @@ public class BOJ_2467_Cho {
 
 				pIdx--;
 				continue;
-			} //�ϳ��� �̹� ���� �����ߴٸ� �ٸ� �ϳ��� ��� ����
+			} //하나가 이미 끝에 도달했다면 다른 하나만 계속 변경
 
 			if (plus[pIdx] + minus[mUpperIdx] >= 0) {
 				pIdx--;
@@ -63,7 +69,7 @@ public class BOJ_2467_Cho {
 			} else {
 				mUpperIdx++;
 				continue;
-			} //�װ� �ƴ϶�� ���ؼ� +���� �� �Ǵٸ�(���밪��) +���̱�  -�� �� �Ǵٸ� - ���̱�
+			} //그게 아니라면 비교해서 +쪽이 더 컸다면(절대값이) +줄이기  -가 더 컸다면 - 줄이기
 
 		}
 		Arrays.sort(mArr);
@@ -79,5 +85,5 @@ public class BOJ_2467_Cho {
 			return new int[] { a, b };
 		else
 			return near;
-	} // �񱳿� ���Ӱ� ���� �� ���ڰ� ������ ������ �� �迭 ��ȯ
+	} // 비교용 새롭게 나온 두 숫자가 전보다 작으면 그 배열 반환
 }
