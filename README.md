@@ -51,7 +51,7 @@ BABOO들의 자바 알고리즘 스터디
             <img src="https://avatars.githubusercontent.com/u/139305078?v=4" width="100px;" alt=""/>
             <br />
             <sub>
-                <b>노세희</b>
+                <b>*</b>
             </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=noseahe" widt="100px">
         </a>
         <br />
