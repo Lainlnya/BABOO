@@ -11,7 +11,7 @@ BABOO들의 자바 알고리즘 스터디
             <img src="https://avatars.githubusercontent.com/u/139313175?v=4" width="100px;" alt=""/>
             <br />
             <sub>
-                <b>조용환</b>
+                <b>*</b>
             </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=s4253541" widt="100px">
         </a>
         <br />
@@ -21,7 +21,7 @@ BABOO들의 자바 알고리즘 스터디
             <img src="https://avatars.githubusercontent.com/u/139305010?v=4" width="100px;" alt=""/>
             <br />
             <sub>
-                <b>문성현</b>
+                <b>*</b>
             </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=seonghyeon_moon" widt="100px">
         </a>
         <br />
@@ -31,7 +31,7 @@ BABOO들의 자바 알고리즘 스터디
             <img src="https://avatars.githubusercontent.com/u/93235981?v=4" width="100px;" alt=""/>
             <br />
             <sub>
-                <b>김예림</b>
+                <b>*</b>
             </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=kimyelim100" widt="100px">
         </a>
         <br />
@@ -41,7 +41,7 @@ BABOO들의 자바 알고리즘 스터디
             <img src="https://avatars.githubusercontent.com/u/139370595?v=4" width="100px;" alt=""/>
             <br />
             <sub>
-                <b>유승호</b>
+                <b>*</b>
             </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=babyho99" widt="100px">
         </a>
         <br />
@@ -110,7 +110,7 @@ git commit -m "[Add] SWEA_1218_유_180"
 <li> 목요일은 퇴근 후 식사 후 알고리즘 풀이 공유 </li>
 <li> 불참시 1만원 </li>
 <li> 문제를 안 풀어올 경우 문제 당 5000원 </li>
-<li> 주당 10문제 ( 1인 2문제) 풀이 </li>
+<li> 주당 15문제 ( 1인 3문제) 풀이 </li>
 
 </ol>
 
