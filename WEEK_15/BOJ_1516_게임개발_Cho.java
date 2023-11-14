@@ -42,15 +42,15 @@ public class Main {
             for (int idx : nB[nIdx]) {
                 remainN[idx]--;
                 fTime[idx] = Math.max(fTime[idx], fTime[nIdx]);
+                //본인 지음으로써 본인을 선행 건물로 하는 건물들 다 remainN--
+                //자기 완성된 시간과 본인을 선행 건물로 하는 건물들의 현재 최대시간 비교해서 갱신
                 if (remainN[idx] == 0) {
                     fTime[idx] += time[idx];
                     queue.add(idx);
-                }
+                } //선행빌드 클리어시 가장 오래 걸린 건물 + 자기 짓는 시간 fTime 저장, 자기자신 queue에 넣기
             }
         } // while	
-//        for (int i = 1; i <=N ; i++) {
-//        	System.out.println(nB[i]);
-//        }
+
 
 
 
