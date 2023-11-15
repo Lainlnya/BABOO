@@ -11,7 +11,7 @@ BABOO들의 자바 알고리즘 스터디
             <img src="https://avatars.githubusercontent.com/u/139313175?v=4" width="100px;" alt=""/>
             <br />
             <sub>
-                <b>*</b>
+                <b>조용환</b>
             </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=s4253541" widt="100px">
         </a>
         <br />
@@ -21,7 +21,7 @@ BABOO들의 자바 알고리즘 스터디
             <img src="https://avatars.githubusercontent.com/u/139305010?v=4" width="100px;" alt=""/>
             <br />
             <sub>
-                <b>*</b>
+                <b>문성현</b>
             </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=seonghyeon_moon" widt="100px">
         </a>
         <br />
@@ -31,7 +31,7 @@ BABOO들의 자바 알고리즘 스터디
             <img src="https://avatars.githubusercontent.com/u/93235981?v=4" width="100px;" alt=""/>
             <br />
             <sub>
-                <b>*</b>
+                <b>김예림</b>
             </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=kimyelim100" widt="100px">
         </a>
         <br />
@@ -41,7 +41,7 @@ BABOO들의 자바 알고리즘 스터디
             <img src="https://avatars.githubusercontent.com/u/139370595?v=4" width="100px;" alt=""/>
             <br />
             <sub>
-                <b>*</b>
+                <b>유승호</b>
             </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=babyho99" widt="100px">
         </a>
         <br />
@@ -51,7 +51,7 @@ BABOO들의 자바 알고리즘 스터디
             <img src="https://avatars.githubusercontent.com/u/139305078?v=4" width="100px;" alt=""/>
             <br />
             <sub>
-                <b>*</b>
+                <b>노세희</b>
             </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=noseahe" widt="100px">
         </a>
         <br />
