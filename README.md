@@ -31,7 +31,7 @@ BABOO들의 자바 알고리즘 스터디
             <img src="https://avatars.githubusercontent.com/u/93235981?v=4" width="100px;" alt=""/>
             <br />
             <sub>
-                <b>김예림</b>
+                <b>***</b>
             </sub><br/><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=kimyelim100" widt="100px">
         </a>
         <br />
